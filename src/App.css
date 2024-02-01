@@ -1,38 +1,108 @@
 .App {
+  text-align: auto;
+}
+
+.logo {
+  height: auto;
+}
+
+.me-auto {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.header {
+  padding: 40px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.header-content {
+  display: block;
+  font-size: 20px;
+  font-family: "Knockout 49 A", "Knockout 49 B", "HelveticaNeue-CondensedBold",
+    "Arial Narrow", sans-serif;
+  color: #000;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.title {
+  font-size: 38px;
+  font-family: fantasy;
+  color: #000;
+  font-weight: bold;
+  margin-top: 45px;
+}
+
+.avatar {
+  width: 100%;
+  display: block;
+}
+
+.drink {
+  width: 380px;
+  padding: 50px;
+  margin: 20px;
+}
+.drink-style {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.more {
+  display: block;
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  text-decoration: none;
   text-align: center;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #0f9675;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.more:hover {
+  color: #000;
+  background-color: #cfe3df;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.product-name {
+  font-size: 20px;
+  font-family: "Knockout 49 A", "Knockout 49 B", "HelveticaNeue-CondensedBold",
+    "Arial Narrow", sans-serif;
+  color: #000;
+  font-weight: bold;
+  line-height: 1;
+  margin: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dropdown {
+  color: #148f6a;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-footer {
+  float: none;
+  padding: 1.2em 0;
+  border-top: 2px solid #ff5b60;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login {
+  padding: 15px 10px;
+}
+
+.space {
+  height: 90px;
 }
